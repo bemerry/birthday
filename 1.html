@@ -3,16 +3,58 @@
 <head>
 <title>Birthday Gift Ideas</title>
 <meta charset="utf-8">
+<style>
+#grid {
+  display:grid;
+  grid-template-columns:150px 1fr;
+}
+#article {
+  padding:10px;
+  padding-left:20px;
+}
+.background {
+  background-color:darkgreen;
+}
+body {
+  margin:0;
+}
+a {
+  text-decoration:none;
+  color:black;
+}
+h1 {
+  font-size:40px;
+  text-align:center;
+  border-bottom:1px solid gray;
+  margin:0;
+  padding:20px;
+}
+h2 {
+  color:darkgreen;
+  border:1px solid darkgreen;
+  text-align:center;
+}
+ol {
+  border-right:1px solid gray;
+  width:75px;
+  margin:0;
+  padding:30px;
+}
+</style>
 </head>
 <body>
-  <h1><a href="index.html">Lists</a></h1>
+  <h1 class="background"><a href="index.html">Lists</a></h1>
+<div id="grid">
 <ol>
-  <li><a href="1.html">KNIT</a></li>
+  <li><a href="1.html" style="color:green;text-decoration:underline">KNIT</a></li>
   <li><a href="2.html">IPAD</a></li>
 </ol>
+<div id="article">
 <h2>KNIT</h2>
 <p><a href="https://www.balaan.co.kr/shop/goods/goods_view.php?&goodsno=4232243"
-  target="_blank" title="링크를 눌러보세유">아미 니트</a> 광고에서 보이던 그 <strong>balaan</strong>에 있네! 더 멋있어지겠어유
+  target="_blank" title="링크를 눌러보세유"  style="text-decoration:underline">아미 니트</a> 광고에서 보이던 그 <strong>balaan</strong>에 있네! 더 멋있어지겠어유
 <img src="knit.jpg" width="100%"></p>
+</div>
+</div>
 </body>
 </html>
